@@ -282,6 +282,16 @@ background: #F5F4FA;
 }
 
 
+.team-list{
+    display: flex;
+}
+
+.team{
+    padding-right: 30px;
+}
+
+
+
 .our-team{
     font-family: Roboto;
 font-size: 36px;
@@ -290,6 +300,7 @@ font-weight: 700;
 line-height: 42px;
 letter-spacing: 0.03em;
 text-align: center;
+padding-bottom: 50px;
 
 color: var(--text-primary);
 }
@@ -327,6 +338,7 @@ line-height: 31px;
 letter-spacing: 0.03em;
 text-align: left;
 
+
 color: var(--theme-color);
 }
 
@@ -338,6 +350,7 @@ font-weight: 400;
 line-height: 36px;
 letter-spacing: 0.03em;
 text-align: left;
+
 
 color: #FFFFFF;
 }
@@ -383,7 +396,6 @@ color: #FFFFFF;
 
 .footer-first{
     height: 252px;
-width: 1600px;
 left: 0px;
 top: 2097px;
 border-radius: 0px;
@@ -391,6 +403,20 @@ border-radius: 0px;
 background-color: #2F303A;
 }
 
+.footer-first{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.first-footer-links:not(:last-child){
+    padding-bottom: 10px;
+}
 
 
     
