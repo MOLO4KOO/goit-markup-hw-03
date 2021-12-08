@@ -26,28 +26,95 @@ address{
     font-style: normal;
 }
 
+.section{
+    padding: 94px;
+}
+
+.container{  
+        padding: 0 15px;
+        width: 1200px;
+        margin: 0 auto;
+}
+
 
 
 /* =========== Header styles starts here =========== */
 
+.header-list {
+    display: flex;
+  }
+  .header-item:not(:last-child) {
+    margin-right: 50px;
+  }
 
-.webstudio-header{
-    font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: 31px;
-letter-spacing: 0.03em;
-text-align: left;
 
-color: var(--theme-color);
+
+.header-container{
+    display: flex;
+    align-items: center;
+    display: flex;
+
+    padding: 0 15px;
+  width: 1200px;
+  margin: 0 auto;
+    
+    margin: auto;
+    height: 80px;
+width: 1600px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
 }
-.webstudio-header:hover,
-.webstudio-header:focus{
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+  }
+
+
+
+
+.contacts-header{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+
+}
+
+.blyat:not(:last-child){
+        margin-right: 30px;
+      
+}
+
+
+.header-logo {
     color: var(--theme-color);
-}
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-right: 94px;
+  }
+
+  .header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--text-primary);
+  }
+  
+  .header-link:hover,
+  .header-link:focus {
+    color: var(--theme-color);
+  }
+
+
+
 
 .studio{
+
 font-family: Raleway;
 font-size: 26px;
 font-style: normal;
@@ -57,11 +124,14 @@ letter-spacing: 0.03em;
 text-align: left;
 
 color: var(--text-primary);
-
 }
 
 
+
+
 .nav-link{
+    
+    
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -71,6 +141,7 @@ color: var(--text-primary);
     text-align: left;
       
      color: var(--text-primary)
+
 }       
 .nav-link:hover,
 .nav-link:focus{
@@ -140,15 +211,23 @@ border-radius: 4px;
 
 
 .hero-box{
-    height: 600px;
-width: 1600px;
-left: 0px;
-top: 80px;
-border-radius: 0px;
-
- background: #2F303A;
+padding-top: 200px;
+padding-bottom: 200px;
+text-align: center;
+ background-color: #2F303A;
 
 }
+
+
+.about-list{
+    display: flex;
+}
+
+.about-pluses{
+    margin-right: 30px;
+    margin-left: 0;
+}
+
 
 .pluses{
     font-family: Roboto;
@@ -301,15 +380,7 @@ background-color: #2F303A;
 }
 
 
-.hero-box{
-    height: 600px;
-width: 1600px;
-left: 0px;
-top: 80px;
-border-radius: 0px;
 
-background-color: #2F303A;
-}
     
 
 

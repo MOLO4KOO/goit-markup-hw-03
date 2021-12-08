@@ -11,28 +11,36 @@
 <body>
     
     <header class="header">
-      
+      <div class="header-container">
         
-            <nav class="nav-bar">
-              <a  href="./index.html" class="webstudio-header" >
-              Web<span class="studio">Studio</span>
-            </a>
-
-             <ul class="nav-box"> 
-                 <li><a class="nav-link active-page" href="index.html">Студия</a></li>
-                 <li><a class="nav-link" href="Partfolio.html">Портфолио</a></li>            
-                 <li><a class="nav-link" href="">Контакты</a></li>
-             </ul> 
-
-            </nav>
+        <nav class="header-navigation">
+          <a href="./index.html" class="header-logo link">
+            Web<span class="studio">Studio</span>
+          </a>
+          <ul class="header-list  link">
+            <li class="header-item">
+              <a class="header-link link active-page" href="/index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./Partfolio.html">Портфолио</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
 
             <ul class="contacts-header">
 
-               <li><a class="header-phone" href="tel:+380961111111">+380961111111</a></li>
-               <li><a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+               <li class="blyat"><a class="header-phone" href="tel:+380961111111">+380961111111</a></li>
+               <li class="blyat"><a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
 
             </ul>
-        
+          
+          
+          </div> 
     </header>
     
 
@@ -40,12 +48,14 @@
 
     <main>
 
-      <section class="hero-box">
+      <section class="hero-box section">
 
+        <div class="container">
         <h1 class="slogan">
           ЭФФЕКТИВНИЕ РЕШЕНИЯ<br>
           ДЛЯ ВАШЕГО БИЗНЕСА
       </h1>
+    </div>
 
       <button class="main-button" type="button">Заказать услугу</button>
 
@@ -53,19 +63,21 @@
 
 
 
-        <section>
-            <ul>
+        <section class="about section">
 
-               <li><h3 class="pluses">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+          <div class="container">
+            <ul class="about-list">
+
+               <li class="about-pluses"><h3 class="pluses">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
                 <p class="content">
                     Идейные соображения,
                      а также начало повседневной работы по
                       формированию позиции.
                     </p>
-                  </li>
+                  </li> 
         
                   
-            <li><h3 class="pluses">ПУНКТУАЛЬНОСТЬ</h3>
+            <li class="about-pluses"><h3 class="pluses">ПУНКТУАЛЬНОСТЬ</h3>
              <p class="content">
                 Задача организации, в особенности
                  же рамки и место обучения кадров
@@ -74,16 +86,16 @@
               </li>
      
     
-            <li><h3 class="pluses">ПЛАНИРОВАНИЕ</h3>
+            <li class="about-pluses"><h3 class="pluses">ПЛАНИРОВАНИЕ</h3>
              <p class="content">
                 Равным образом консультация с
                  широким активом в значительной
                   степени обуславливает.
                 </p>
-              </li>
+  
   
      
-            <li><h3 class="pluses">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+            <liabout-pluses><h3 class="pluses">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
              <p class="content">
                 Значимость этих проблем настолько
                 очевидна, что реализация плановых 
@@ -92,14 +104,14 @@
             </li>
 
           </ul>
-
+        </div>
         </section>
 
         
         
-    <section>
+    <section class="section">
 
-      <h2 class="our-job">Чем мы занимаемся</h2>
+      <h2 class="our-job section">Чем мы занимаемся</h2>
       
       <ul>
         <li><img src="./images/img.jpg" 
@@ -108,7 +120,7 @@
       </li>
 
       <li><img src="./images/img(1).png" 
-        alt="парень смотрит в смартфон" 
+        alt="парень смотрит в смартфон"          alt="парень смотрит в смартфон"  
         width="370">
       </li>
 
@@ -122,7 +134,7 @@
     </section>  
 
 
-      <section class="team-bg">
+      <section class="team-bg section">
         <h2 class="our-team">Наша команда</h2>
   
         <ul>
