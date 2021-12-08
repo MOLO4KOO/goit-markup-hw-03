@@ -52,18 +52,13 @@ address{
 .header-container{
     display: flex;
     align-items: center;
-    display: flex;
+    
 
     padding: 0 15px;
   width: 1200px;
   margin: 0 auto;
     
-    margin: auto;
-    height: 80px;
-width: 1600px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
+
 }
 
 .header-navigation {
@@ -253,7 +248,10 @@ text-align: left;
 color: var(--text-secondary);
 }
 
+.job-photos{
+    display: flex;
 
+}
 
 
 
