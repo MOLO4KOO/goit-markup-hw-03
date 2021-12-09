@@ -426,6 +426,20 @@ background-color: #2F303A;
 
 
 
+.partfolio-nav{
+    display: flex;
+    padding-left: 350px;
+    padding-bottom: 132px;
+    
+}
+
+.buttons-partfolio-li:not(:last-child){
+    padding-right: 52px;
+   
+}
+
+
+
 
 .buttons-partfolio{
     font-family: Roboto;
@@ -435,6 +449,10 @@ font-weight: 500;
 line-height: 26px;
 letter-spacing: 0.03em;
 text-align: center;
+
+
+border-radius: 4px;
+
 
     color: var(--text-primary);
     background-color: #F5F4FA;
@@ -472,6 +490,15 @@ color: var(--text-secondary);
 }
 
 
+
+.partfolio-all{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.all-photos:not(:last-child){
+    flex-basis: calc(100% / 3 - 30px);
+}
 
 
 
