@@ -429,12 +429,13 @@ background-color: #2F303A;
 .partfolio-nav{
     display: flex;
     padding-left: 350px;
-    padding-bottom: 132px;
+    padding-bottom: -38px;
     
 }
 
 .buttons-partfolio-li:not(:last-child){
     padding-right: 52px;
+   
    
 }
 
@@ -452,6 +453,9 @@ text-align: center;
 
 
 border-radius: 4px;
+ border-color:  #F5F4FA;
+
+;
 
 
     color: var(--text-primary);
@@ -494,10 +498,13 @@ color: var(--text-secondary);
 .partfolio-all{
     display: flex;
     flex-wrap: wrap;
+    padding-left: 0;
+    padding-bottom: -38px;
 }
 
-.all-photos:not(:last-child){
+.all-photos{
     flex-basis: calc(100% / 3 - 30px);
+    padding-right: 30px;
 }
 
 
