@@ -46,12 +46,14 @@ address{
   .header-item:not(:last-child) {
     margin-right: 50px;
   }
+ 
 
 
 
 .header-container{
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #ECECEC;
     
 
     padding: 0 15px;
@@ -98,6 +100,8 @@ address{
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--text-primary);
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   
   .header-link:hover,
@@ -209,9 +213,15 @@ border-radius: 4px;
 padding-top: 200px;
 padding-bottom: 200px;
 text-align: center;
- background-color: #2F303A;
+background-color: #2F303A;
+
 
 }
+
+.button-container{
+    padding: 0;
+}
+
 
 
 .about-list{
