@@ -29,6 +29,7 @@ address{
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
+    padding: 94px 0;
 }
 
 .container{  
@@ -61,6 +62,9 @@ img {
   height: auto;
 }
 
+
+
+
 /* =========== Header styles starts here =========== */
 
 .header-list {
@@ -71,12 +75,19 @@ img {
   }
  
 
+  .header {
+    padding-top: 29px;
+    padding-bottom: 29px;
+    border-bottom: 1px solid #ececec;
+  }
+
+
 
 
 .header-container{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
+   
 
 }
 
@@ -446,6 +457,12 @@ background-color: #2F303A;
     padding-bottom: 10px;
 }
 
+.partfolio-box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
 
     
 
@@ -456,8 +473,8 @@ background-color: #2F303A;
 
 .partfolio-nav{
     display: flex;
-    padding-left: 350px;
-    padding-bottom: -38px;
+    margin-bottom: 50px;
+    justify-content: center;
     
 }
 
@@ -533,6 +550,10 @@ color: var(--text-secondary);
 .all-photos{
     flex-basis: calc(100% / 3 - 30px);
     padding-right: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
 }
 
 
