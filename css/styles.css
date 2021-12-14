@@ -544,7 +544,7 @@ color: var(--text-secondary);
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
-    padding-bottom: -38px;
+   
 }
 
 .all-photos{
