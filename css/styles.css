@@ -76,9 +76,8 @@ img {
  
 
   .header {
-    padding-top: 29px;
-    padding-bottom: 29px;
     border-bottom: 1px solid #ececec;
+    padding: 0;
   }
 
 
@@ -87,6 +86,7 @@ img {
 .header-container{
     display: flex;
     align-items: center;
+    
    
 
 }
@@ -129,8 +129,9 @@ img {
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--text-primary);
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
   }
   
   .header-link:hover,
@@ -256,11 +257,13 @@ background-color: #2F303A;
 
 .about-list{
     display: flex;
+    margin-right: -30px;
 }
 
 .about-pluses{
     margin-right: 30px;
     margin-left: 0;
+    width: 270px;
 }
 
 
@@ -309,7 +312,7 @@ line-height: 42px;
 letter-spacing: 0.03em;
 text-align: center;
 
-padding-bottom: 50px;
+margin-bottom: 50px;
 
 color: var(--text-primary);
 }
@@ -326,10 +329,11 @@ background: #F5F4FA;
 
 .team-list{
     display: flex;
+    margin-right: -30px;
 }
 
 .team{
-    padding-right: 30px;
+    margin-right: 30px;
 }
 
 
@@ -344,7 +348,7 @@ font-weight: 700;
 line-height: 42px;
 letter-spacing: 0.03em;
 text-align: center;
-padding-bottom: 50px;
+margin-bottom: 50px;
 
 color: var(--text-primary);
 }
@@ -358,13 +362,15 @@ line-height: 19px;
 letter-spacing: 0.03em;
 text-align: center;
 
+margin-bottom: 10px;
+
 color: var(--text-primary);
 }
 
 
 .squad-names{
-    margin-top: 30px;
-    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .squad-job{
